@@ -54,7 +54,7 @@ searchBtn.onclick = () => {
       let agents = json.data;
       let found = false;
       agents.map((agent) => {
-        if (agent.displayName == name) {
+        if (agent.displayName == name && agent.isPlayableCharacter==true) {
           found = true;
           let cardImage = document.getElementById("cardImg");
           cardImage.src = agent.displayIcon;
@@ -92,7 +92,7 @@ knowMore.onclick=()=>{
     console.log(name)
     let agents = json.data;
       agents.map((agent) => {
-        if (agent.displayName == name) {
+        if (agent.displayName == name && agent.isPlayableCharacter==true) {
          console.log(agent)
         
          let bgUrl = agent.background
