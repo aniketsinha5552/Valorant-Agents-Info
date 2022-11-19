@@ -1,0 +1,198 @@
+body{
+    background-image: url("./bg/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 900px ;
+    
+  
+} 
+
+* {
+    margin: 0;
+    padding: 0%;
+  }
+  .container {
+    height: 100%;
+    width: 100%;
+    /* background-image: linear-gradient(rgb(129, 96, 221), rgb(86, 67, 129)); */
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+ 
+  
+  }
+  .search-bar {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    border-color: rgba(63, 51, 95, 0.011);
+    
+    padding: 10px;
+  }
+  .search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cccc;
+  }
+  ::placeholder {
+    color: whitesmoke;
+  }
+  .search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .search-bar button:hover{
+    background-color: rgb(134, 181, 181);
+    transform: scale(1.1);
+  }
+
+  
+
+  #agentCard{
+    height: 500px;
+    width: 300px;
+    background-color: whitesmoke;
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    margin-top: 80px;
+  }
+  
+  #cards{
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+
+  #sideCard1{
+    height: 400px;
+    width: 250px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 10px;
+    background-color:rgb(27, 27, 76);
+    color: aliceblue;
+    text-align: center;
+  }
+  #sideCard1:hover{
+    transform: scale(1.02);
+  }
+  #sideCard1 img{
+    height: 180px;
+    width: 180px;
+    margin-top: 5px;
+  }
+  #sideCard2 img{
+    height: 180px;
+    width: 180px;
+    margin-top: 5px;
+  }
+  #sideCard2{
+    height: 400px;
+    width: 250px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 10px;
+    background-color:rgb(27, 27, 76);
+    color: aliceblue;
+    text-align: center;
+  }
+  #sideCard2:hover{
+    transform: scale(1.02);
+  }
+
+  #agentCard{
+    border-radius: 10px;
+    background-color:rgb(27, 27, 76);
+   
+  }
+  #agentCard:hover{
+    transform: scale(1.02);
+  }
+
+
+
+  #cardImg{
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+  
+  }
+
+  #desc{
+    color: whitesmoke;
+  }
+
+  @media only screen and (max-width:850px)  {
+    #sideCard1, #sideCard2{
+        display: none;
+    }
+    .search-bar {
+      width: 100%;
+      max-width: 500px;
+      background: rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      border-radius: 60px;
+      border-color: rgba(129, 96, 221);
+      padding: 10px;
+    }
+  }
+
+  /* Arrow */
+  .button{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 10px;
+  }
+  .button:hover{
+    background-color: rgb(134, 181, 181);
+    transform: scale(1.1);
+  }
+
+  #arrowImg1{
+    max-height:100%;
+     max-width:100%;
+  }
+
+  #knowMore{
+    margin-top: 50px;
+    height: 25px;
+    width: 100px;
+    border-radius: 8px;
+  }
+  #knowMore:hover{
+    background-color: rgb(134, 181, 181);
+  }
+
+#random{
+  border: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#random:hover{
+  background-color: rgb(134, 181, 181);
+}
+
+

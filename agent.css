@@ -1,0 +1,109 @@
+body{
+    background-image: url("./bg/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 900px ;
+    
+  
+} 
+
+* {
+    margin: 0;
+    padding: 0%;
+  }
+  .container {
+    height: 100%;
+    width: 100%;
+    /* background-image: linear-gradient(rgb(129, 96, 221), rgb(86, 67, 129)); */
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+ 
+  
+  }
+  .search-bar {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    border-color: rgba(129, 96, 221);
+    padding: 10px;
+  }
+  .search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cccc;
+  }
+  ::placeholder {
+    color: whitesmoke;
+  }
+  .search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .search-bar button:hover{
+    transform: scale(1.1);
+  }
+
+  
+
+  
+  @media only screen and (max-width:850px)  {
+    #sideCard1, #sideCard2{
+        display: none;
+    }
+    .search-bar {
+      width: 100%;
+      max-width: 500px;
+      background: rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      border-radius: 60px;
+      border-color: rgba(129, 96, 221);
+      padding: 10px;
+    }
+  }
+
+
+  #body{
+    background-color:whitesmoke;
+    height: 675px;
+    width:180vh;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    border-radius: 10px;
+  }
+
+  #body img{
+    height: 80vh;
+    width: 80vh;
+    margin: auto;
+  }
+
+  #abilities{
+      height: 80vh;
+      width: 80vh;
+      text-align: center;
+      background-color: palegoldenrod;
+      border-radius: 10px;
+  }
+
+  #stats{
+    height: 80vh;
+    width: 80vh;
+    text-align: center;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+  }
+
+
